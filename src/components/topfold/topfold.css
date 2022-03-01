@@ -1,0 +1,53 @@
+.topfold, .home-topfold, .search-bar, .search-bar i, .add-button, .add-button, .add-topfold, .add-topfold-button, .add-topfold-button i{
+    display: flex;
+}
+.topfold, .search-bar, .search-bar i, .add-button, .add-button i, .add-topfold-button, .add-topfold-button i{
+    align-items: center;
+}
+
+.topfold{
+    justify-content: space-between;
+    margin: 6px 12px;
+    padding: 12px 0px;
+}
+.home-topfold{
+    justify-content: space-between;
+    flex: 1;
+}
+.search-bar{
+    width:50%;
+    background-color: white;
+    border-radius: 10px;
+}
+.search-bar input{
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 8px 0px;
+    margin-left: 5px;
+    background-color: white;
+}
+.search-bar i {
+    margin-left: 5px;
+}
+.add-button{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+.add-button i {
+    margin-right: 5px;
+}
+.add-topfold{
+    justify-content: space-between;
+    flex: 1;
+}
+.add-topfold-button{
+    font-size: 18px;
+    cursor: pointer;
+}
+.add-topfold-button i{
+    margin-right: 5px;
+}
